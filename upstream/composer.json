@@ -22,7 +22,7 @@
         "drush-ops/behat-drush-endpoint": "^9.3",
         "rvtraveller/qs-composer-installer": "^1.1",
         "zaporylie/composer-drupal-optimizations": "^1.0",
-        "az-digital/az-quickstart-scaffolding": "dev-master"
+        "az-digital/az_quickstart": "dev-master"
     },
     "require-dev": {
         "behat/behat": "3.*",
