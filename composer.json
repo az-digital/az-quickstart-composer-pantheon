@@ -22,7 +22,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
-        "enable-patching": true,
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
@@ -34,7 +33,7 @@
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
             "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
         },
-        "composer-exit-on-patch-failure": true,
+        "composer-exit-on-patch-failure": false,
         "patchLevel": {
             "drupal/core": "-p2"
         },
