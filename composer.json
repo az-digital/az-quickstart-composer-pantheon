@@ -14,13 +14,12 @@
         }
     ],
     "require": {
-        "az-digital/az_quickstart": "@dev",
         "internal/upstream-configuration": "*"
     },
     "conflict": {
             "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
         "installer-paths": {
